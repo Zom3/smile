@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main{
+    width: 100%;
+    background:url(a.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+small{
+    color:green;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.logo{
+    color:orangered;
+    font-family: cursive;
+    font-size: 40px;
+    float: left;
+    padding-top: 5px;
+
+}
+.menu{
+    width: 600px;
+    float: left;
+    height: 70px;
+}
+ul{
+float: right;
+display: flex;
+padding-top: 30px;
+justify-content: center;
+align-items: center;
+margin-left: 14%;
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    font-size: 16px;
+}
+ul li a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 3s ease;
+
+}
+ul li a:hover{
+    color:rgb(10, 10, 209);
+}
+
+.search-box{
+float: right;
+width: 240px;
+background: #fff;
+height: 30px;
+padding: 8px;
+border-radius: 15px;
+margin-top: 1%;
+margin-right: 2%;
+}
+.search-txt{
+    width: 190px;
+    padding: 0 6px;
+}
+.seacrh.hr{
+text-decoration: none;
+background: #fff;
+color: #000;
+display: flex;
+float: right;
+justify-content: center;
+align-items: center;
+width: 30px;
+height: 30px
+
+}
+.search-txt{
+border: none;
+background: none;
+outline: none;
+color: black;
+float: left;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: .6px;
+}
+a{
+    float: right;
+    padding: 5px;
+}
